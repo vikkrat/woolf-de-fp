@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+data_engineering_env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (keep structure but ignore actual data)
+data/landing/*.csv
+data/bronze/*.csv
+data/silver/*.csv
+data/gold/*.csv
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large downloads
+*.tgz
+*.tar.gz
+kafka/
+
+# Screenshots - KEEP THESE! They are essential for project demonstration
+# screenshots/ - commented out to keep screenshots in git
+
+# MySQL
+mysql-data/
